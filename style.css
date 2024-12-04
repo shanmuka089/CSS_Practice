@@ -1,0 +1,65 @@
+/* universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* element name selector */
+h2 {
+    color: blueviolet;
+}
+
+/* id selector */
+#element2 {
+    background-color: burlywood;
+}
+
+.element2ByClass {
+    text-align: center;
+}
+
+/* div {
+    background-color: red;
+} */
+
+/* 
+#ele1 {
+    background-color: red;
+}
+
+#ele2 {
+    background-color: blue;
+}
+
+#ele3 {
+    background-color: red;
+}
+
+#ele4 {
+    background-color: blue;
+}
+
+
+#ele5 {
+    background-color: red;
+} */
+
+.blue-element {
+    background-color: blue;
+}
+
+.red-element {
+    background-color: red;
+}
+
+/* class selector */
+.arrange-element {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* group selector */
+.arrange-element, h2 {
+    padding: 20px;
+}
