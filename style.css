@@ -63,3 +63,40 @@ h2 {
 .arrange-element, h2 {
     padding: 20px;
 }
+
+[id="ele1"] {
+    background-color: yellowgreen;
+}
+
+.container {
+    background-color: yellow;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+/* Descendent Selector */
+.container div {
+    background-color: aqua;
+}
+
+/* Child Selector */
+.container > .second-element > span{
+    font-weight: bold;
+    font-size: large;
+    font-family: serif;
+    color: brown;
+}
+
+p + h2 {
+    background-color: violet;
+}
+
+p ~ span {
+    background-color: tomato;
+}
+
+#element2:hover {
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+}
