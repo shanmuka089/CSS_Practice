@@ -48,3 +48,13 @@ EX: p ~ span {
 EX: [id="ele1"] {
     background-color: yellowgreen;
 }
+
+*** CSS Positions ***
+=> when we want to give postions to the ui component in a web page we have to use CSS Positions
+    
+    static(default): we can't move the component horizentally or vertically.
+    relative: we can move the component horizentally & vertically.
+    absoulte: when we want to place an component from absolute position.
+    sticky: The position: sticky property in CSS is a hybrid of relative and fixed positioning. It allows an element to switch between relative and fixed positioning depending on the user's scroll position.
+    fixed: When we want to fix an component in a web page based on the requirement.
+    

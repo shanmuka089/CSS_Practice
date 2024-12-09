@@ -162,3 +162,32 @@ p ~ span {
     */
 }
 
+.component1 {
+    position:relative;
+    top: 200px;
+    left: 300px;
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+}
+
+.component2 {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background-color: yellow;
+    height: 200px;
+    width: 50%;
+    z-index: -1;
+}
+
+.sticky-componet {
+    position: sticky;
+    top: 0px;
+    background-color: blue;
+    color: aliceblue;
+    width: 100%;
+    font-size: large;
+}
+
+
