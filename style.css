@@ -100,3 +100,65 @@ p ~ span {
     background-color: aqua;
     color: black;
 }
+
+.paragraph-text {
+    padding: 10px;
+    background-color: blanchedalmond;
+    border: 10px solid greenyellow;
+    margin: 10px;
+}
+
+.span-text {
+    display: inline-block;
+    padding: 10px;
+    background-color: aquamarine;
+    border: 10px dotted yellow;
+    margin: 10px;
+}
+
+.anchor-link {
+    padding: 10px;
+    background-color: aquamarine;
+    border: 10px dotted yellow;
+}
+
+.sample-div {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    /* padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px; */
+    /* padding: 20px; */
+    padding: 20px 40px;
+
+    /* border-top: 20px;
+    border-bottom: 20px;
+    border-left: 20px;
+    border-right: 20px;
+    border-color: aquamarine;
+    border-style: dashed; */
+    border: 20px dotted aquamarine;
+
+    /* margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px; */
+    /* margin: 50px; */
+    margin: 50px auto;
+
+
+
+   
+    /* 
+    1rst top & bottom
+    2nd left & right
+    */
+
+    /* 
+     padding: 10px;
+     if all sides padding is same
+    */
+}
+
