@@ -1,0 +1,70 @@
+.container {
+    border: 2px solid black;
+    width: 500px;
+    height: 750px;
+}
+
+.container-wrapper {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.component1 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.component2 {
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+.component3 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.relative-container>.component2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+    z-index: -1;
+    opacity: .5;
+}
+
+.relative-container>.component3 {
+    opacity: .5;
+}
+
+.absolute-container {
+    position: relative;
+}
+
+.absolute-container>.component2 {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.fixed-container>.component2 {
+    position: fixed;
+    bottom: 100px;
+    left: 1200px;
+}
+
+.sticky-container>.component2 {
+    position: sticky;
+    bottom: 0px;
+}
