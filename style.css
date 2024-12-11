@@ -191,3 +191,53 @@ p ~ span {
 }
 
 
+#text-transforms {
+    margin-top: 300px;
+    text-align: center;
+    text-transform: lowercase;
+} 
+
+.float-container {
+    height: 700px;
+    width: 700px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.float-container>.image1 {
+    float: right;
+}
+
+.float-container>.image2 {
+    float: left;
+}
+
+.float-container>.footer {
+    background-color: gray;
+    color: white;
+    clear: left;
+    padding: 50px 0px;
+}
+
+.span1 {
+    display: block;
+}
+
+.span2 {
+    display: none;
+}
+
+.heading1 {
+    display: inline;
+}
+
+.heading2 {
+    display: inline-block;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+
+
+
+

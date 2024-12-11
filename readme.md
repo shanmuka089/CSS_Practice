@@ -57,4 +57,12 @@ EX: [id="ele1"] {
     absoulte: when we want to place an component from absolute position.
     sticky: The position: sticky property in CSS is a hybrid of relative and fixed positioning. It allows an element to switch between relative and fixed positioning depending on the user's scroll position.
     fixed: When we want to fix an component in a web page based on the requirement.
+
+*** Responsive Design ***
+to change the screen layout based on screen sizes we have to use below features.
+1. media queries
+2. Flex Box (1-D)
+3. Grid (2-D)
+4. Bootstrap
+
     
