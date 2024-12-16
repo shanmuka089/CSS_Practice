@@ -66,3 +66,18 @@ to change the screen layout based on screen sizes we have to use below features.
 4. Bootstrap
 
     
+Flex Box:
+- It used to create responsive web design in 1 dimensional way, to create flex box we have to apply display:flex to the container.
+- We have specify wrap property, by default it will be no-wrap.
+- To add gap between the components we have to use gap property.
+- To specify flex direction we have to use flex-direction: row/coumn
+    1. flex direction is row:
+        a. main axis is horizental (justify-content)
+        b. cross axis is vertical (align-items) 
+    2. flex direction is column:
+        a. main axis is vertical (justify-content)
+        b. cross axis is horizental (align-items) 
+
+- when we using flex wrap & if we want to align the items along the cross axis we have to use align-content.
+- when we using no wrap & if we want to align the items along the cross axis we have to use align-items.
+- to align individual component along the cross axis we have to use align-self

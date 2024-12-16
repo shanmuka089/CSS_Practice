@@ -1,0 +1,39 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    gap: 30px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+    margin: 50px;
+    border: 2px dashed black;
+}
+
+.component {
+    background-color: yellow;
+    border: 2px solid black;
+    box-shadow: blue 0px 10px 10px 0.6;
+    height: 200px;  
+    width: 200px;
+}
+
+/* .component2 {
+    order: 5;
+}
+
+.component4 {
+    order: 2;
+}  */
+
+/* .component1 {
+    align-self: center;
+}  */
